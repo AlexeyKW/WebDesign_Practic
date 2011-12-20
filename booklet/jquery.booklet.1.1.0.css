@@ -80,8 +80,8 @@
 ----------------------------------------*/
 	.b-menu {height:40px; padding:0 0 10px;}
 	
-	.b-selector             {height:40px; position:relative; float:right; border:none; color:#cecece; cursor:pointer;}
-	.b-selector .b-current  {padding:8px 15px 12px; line-height:20px; min-width:18px; height:20px; display:block; background:#000; text-align:center;}
+	.b-selector             {height:40px; position:relative; float:right; border:none; color:#ffffff; cursor:pointer;}
+	.b-selector .b-current  {padding:8px 15px 12px; line-height:20px; min-width:18px; height:20px; display:block; background:#000000; text-align:center;}
 	.b-selector-page        {width:auto; margin-left:15px;}
 	.b-selector-chapter     {width:auto;}
 	
@@ -89,7 +89,7 @@
 	.b-selector:hover .b-current {background-position:right 0px;}
 	.b-selector ul               {overflow:hidden; margin:0; list-style:none !important; position:absolute; top:40px; right:0; padding:0 0 10px; background:#000; width:240px; font:normal 12px "Myriad Pro", Myriad, "DejaVu Sans Condensed","Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 	.b-selector li               {border:none;}
-	.b-selector a                {color:#cecece; height:14px; text-decoration:none; display:block; padding:5px 10px;}
+	.b-selector a                {color:#ffffff; height:18px; text-decoration:none; display:block; padding:5px 10px;}
 	.b-selector a .b-text        {float:left; clear:none;}
 	.b-selector a .b-num         {float:right; clear:none;}
 	.b-selector a:hover          {color:#fff;}
