@@ -12,7 +12,15 @@ body{
 h1{
 	color:#2F1B0C;
 	font-size:40px;
-	margin:20px 0px 0px 20px;
+	margin:20px 0px 0px 0px;
+	text-align:center;
+}
+h2{
+		color:#2F1B0C;
+		text-align:center;
+}
+h3{
+	text-align:center
 }
 span.reference{
 	font-family:Arial;
@@ -31,6 +39,9 @@ span.reference a:hover{
 	color:#ddd;
 }
 /* Стили для плагина jQuery Booklet */
+#custom-menu{
+	margin: -10px 70px 12px auto;
+}
 .booklet{
 	-moz-box-shadow:0px 0px 1px #fff;
 	-webkit-box-shadow:0px 0px 1px #fff;
@@ -40,7 +51,7 @@ span.reference a:hover{
 	border-radius:10px;
 }
 .booklet .b-wrap-left  {
-	background:#fff url(../images/left_bg.jpg) no-repeat top left;
+	/*background:#fff url(../images/left_bg.jpg) no-repeat top left; */
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
 	-moz-border-radius-topleft:10px;
@@ -49,7 +60,7 @@ span.reference a:hover{
 	border-bottom-left-radius: 10px;
 }
 .booklet .b-wrap-right {
-	background:#efefef url(../images/right_bg.jpg) no-repeat top left;
+	/* background:#efefef url(../images/right_bg.jpg) no-repeat top left; */
 	-webkit-border-top-right-radius: 10px;
 	-webkit-border-bottom-right-radius: 10px;
 	-moz-border-radius-topright: 10px;
@@ -76,23 +87,29 @@ span.reference a:hover{
 }
 .book_wrapper{
 	margin:0 auto;
-	padding-top:50px;
-	width:905px;
-	height:540px;
+	padding-top:25px;
+	width:1050px;
+	height:915px;
 	position:relative;
-	background:transparent url(../images/bg.png) no-repeat 9px 27px;
+	background:transparent url(../images/bg.png) no-repeat 4px 35px;
 }
 .book_wrapper h1{
 	color:#13386a;
 	margin:5px 5px 5px 15px;
 	font-size:26px;
-	background:transparent url(../images/h1.png) no-repeat bottom left;
+	background:transparent url(../images/h1.png) no-repeat bottom center;
+	text-align:center;
 	padding-bottom:7px;
 }
 .book_wrapper p{
 	font-size:16px;
 	margin:5px 5px 5px 15px;
 }
+.book_wrapper li{
+	font-size:16px;
+	margin: 5px 5px 5px 30px;
+}
+
 .book_wrapper a.article,
 .book_wrapper a.demo{
 	display:block;
@@ -104,18 +121,7 @@ span.reference a:hover{
 	float:left;
 	line-height:41px;
 }
-.book_wrapper a.demo{
-	margin-left:100px;
-	background:transparent url(../images/circle_demo.png) no-repeat 50% 0px;
-	width:145px;
-	padding-left:50px;
-}
-.book_wrapper a.article{
-	margin-left:10px;
-	background:transparent url(../images/circle_article.png) no-repeat 50% 0px;
-	width:45px;
-	padding-left:20px;
-}
+
 .book_wrapper a.article:hover,
 .book_wrapper a.demo:hover{
 	background-position:50% -41px;
